@@ -1,0 +1,51 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOqcDiPq676Te8F42nHbLeM",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/soheybdelavary/colab/blob/main/27\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#تابع بنویسید که تا وقتی عدد صحیح 1000 را وارد نکرده ایم اعداد صحیح را از ورودی بگیرد و  میانگین اعداد وارد شده را به خروجی ارسال کند\n",
+        "def mean():\n",
+        "    i=0\n",
+        "    Sum=0\n",
+        "    Counter=0\n",
+        "    while i!= 1000:\n",
+        "        i=int(input())\n",
+        "    Sum+=1\n",
+        "    Counter+=1\n",
+        "    return(sum-1000) | ( Counter-1)"
+      ],
+      "metadata": {
+        "id": "CdKhx646M5G6"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
