@@ -1,0 +1,49 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMlSZcH+PntCCVKuX6QDG0s",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/soheybdelavary/colab/blob/main/14\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "In [15]:\n",
+        "\n",
+        "class student:\n",
+        "    def __init__(self,id=1111,name='reza'):\n",
+        "          self.id=id\n",
+        "          self.name=name\n",
+        "    def __del__(self):\n",
+        "          print(self.name,'deleted')"
+      ],
+      "metadata": {
+        "id": "ZBMX8I2LKp5x"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
