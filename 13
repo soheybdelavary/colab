@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNdzGp/wjKDVl7SQY/ubvqY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/soheybdelavary/colab/blob/main/13\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "In [ ]:\n",
+        "\n",
+        "\n",
+        "class student:\n",
+        "    def __init__(self,id=1111,name='reza'):\n",
+        "          self.id=id\n",
+        "          self.name=name\n",
+        "    def __del__(self):\n",
+        "          print(self.name,'deleted')\n",
+        "    def  mean(self) :\n",
+        "         s1=int(input ())\n",
+        "         s2=int(input())\n",
+        "         sum=s1+s2\n",
+        "         return sum/2\n",
+        "    def is_mashroot(self):\n",
+        "         if self.mean() <12:\n",
+        "           return True\n",
+        "\n",
+        "         else:\n",
+        "           return False\n",
+        "    def __str__(self) :\n",
+        "        print('this calss is student calss')"
+      ],
+      "metadata": {
+        "id": "zFGEPIhRKbyY"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
