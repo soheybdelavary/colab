@@ -1,0 +1,49 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOo8mEF55lDsmk+HZrCvIW2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/soheybdelavary/colab/blob/main/25\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#تابع بنویسید که 3 عدد صحیح را از ورودی گرفته آنگاه بزرگترین آن را به خروجی ارسال کند :\n",
+        "def max3 (a,b,c) :\n",
+        "    max=a\n",
+        "    if b>max:\n",
+        "       max=b\n",
+        "    if c>max:\n",
+        "       max=c\n",
+        "    return max"
+      ],
+      "metadata": {
+        "id": "HQ-LW_AnMl8K"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
