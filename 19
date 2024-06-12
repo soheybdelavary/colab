@@ -1,0 +1,47 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNEXTLoqjXnNupfwCSdv7bT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/soheybdelavary/colab/blob/main/19\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#برنامه ای بنویسید که طول و عرض مستطیل را گرفته و محیط مساحت آن را به خروجی بفرستد\n",
+        "def rect (a,b):\n",
+        "    P=2*(a+b)\n",
+        "    S=a*b\n",
+        "    Print(P , S)\n",
+        "    return P,S"
+      ],
+      "metadata": {
+        "id": "MAYeSQ1ILlyj"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
