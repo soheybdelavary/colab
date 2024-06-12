@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNAROQav8zjJtSDQa0GBKNr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/soheybdelavary/colab/blob/main/15\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "class triangle () :\n",
+        "    def __init__ (self, a=4, b=5, c=6):\n",
+        "        self.a=a\n",
+        "        self.b=b\n",
+        "        self.c=c\n",
+        "        if(a+b>c and a+c>b and b+c>a):\n",
+        "            print(\"triangle created\")\n",
+        "        else:\n",
+        "            print(\"triangle is false\")\n",
+        "    def perim(self):\n",
+        "        return self.a+self.b+self.c\n",
+        "    def Area(self):\n",
+        "        s=(self.a+self.b+self.c)/2\n",
+        "        return (s*(s-self.a)*(s-self.b)*(s-self.c))**0.5\n",
+        "    def is_triangle(self):\n",
+        "        if(self.a+self.b>self.c and self.a+self.c>self.b and self.b+self.c>self.a):\n",
+        "            return True\n",
+        "        else:\n",
+        "            return False\n",
+        "    def __del__ (self):\n",
+        "        print(\"triangle deleted\")\n",
+        "        return -1\n",
+        "T=triangle(5,7,6)\n",
+        "print(T.perim() )\n",
+        "print(T.Area() )\n",
+        "del T\n",
+        "\n",
+        "triangle created\n",
+        "18\n",
+        "14.696938456699069\n",
+        "triangle deleted"
+      ],
+      "metadata": {
+        "id": "JFjYpuAFK-Da"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
